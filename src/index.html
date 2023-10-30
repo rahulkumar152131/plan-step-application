@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="../assets/css/step1.css">
+    <link rel="stylesheet" href="../assets/css/media-step1.css">
+    <title>Multi-step form</title>
+</head>
+
+<body>
+    <div class="step1-container">
+        <div class="personal-information-container">
+            <div class="left">
+                <div class="your-info steps-title">
+                    <div class="steps steps-live">1</div>
+                    <div class="step-container">
+                        <div class="step step1">
+                            STEP 1
+                        </div>
+                        <div class="title">
+                            YOUR INFO
+                        </div>
+                    </div>
+                </div>
+                <div class="select-plan steps-title">
+                    <div class="steps">2</div>
+                    <div class="step-container">
+                        <div class="step step1">
+                            STEP 2
+                        </div>
+                        <div class="title">
+                            SELECT PLAN
+                        </div>
+                    </div>
+                </div>
+                <div class="add-on steps-title">
+                    <div class="steps">3</div>
+                    <div class="step-container">
+                        <div class="step step1">
+                            STEP 3
+                        </div>
+                        <div class="title">
+                            ADD-ONS
+                        </div>
+                    </div>
+                </div>
+                <div class="summary steps-title">
+                    <div class="steps">4</div>
+                    <div class="step-container">
+                        <div class="step step1">
+                            STEP 4
+                        </div>
+                        <div class="title">
+                            SUMMARY
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form class="right">
+                <div class="form-container">
+                    <div class="title-container"> 
+                        <div class="title">
+                            Personal info
+                        </div>
+                        <div class="sub-title">
+                            Please provide your name, email address, and phone number.
+                        </div>
+                    </div>
+
+                    <div class="name flex">
+                        <label for="" class="input-title">Name</label>
+                        <input class="inuput-style" type="text" placeholder="e.g. Stephen King" required>
+                    </div>
+                    <div class="email flex">
+                        <label for="" class="input-title">Email Address</label>
+                        <input class="inuput-style" type="text" placeholder="e.g. stephenking@lorem.com">
+                    </div>
+                    <div class="phone flex">
+                        <label for="" class="input-title">Phone Number</label>
+                        <input class="inuput-style" type="text" placeholder="e.g. +1 234 567 890">
+                    </div>
+                </div>
+
+                <div class="next-step">
+                    <button type="submit"><a href="./step2.html">Next Step</a></button>
+                </div>
+            </form>
+            <div class="bottom">
+
+            </div>
+        </div>
+    </div>
+    <script src="./src/script.js"></script>
+</body>
+
+</html>
